@@ -20,11 +20,11 @@ public class StringsAndArrays {
             System.out.println("Enter a Number : ");
             id[i] = sc.nextInt();
             tot=tot+id[i];
+            
         }
         for (int i = 0; i < id.length; i++) {
             System.out.println("id = " + id[i]);
         }
         System.out.println("Total is "+tot);
     }
-
 }
